@@ -1,16 +1,28 @@
 # Projektmall
 
+Nyckelord: Datastrukturer, filhantering
+
 ## Uppgiften
 
 ### Lydelse
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac tincidunt justo. Vivamus eget malesuada felis. Etiam euismod mollis lobortis. Etiam at pellentesque diam. Donec suscipit nulla arcu, consequat iaculis neque maximus non. Proin laoreet tortor nulla, in pharetra lorem laoreet id. Vestibulum condimentum, neque vel suscipit tempor, felis erat consectetur est, a bibendum metus enim et odio. Vivamus laoreet eu eros id efficitur. Nunc ac urna gravida, dignissim libero vel, pellentesque dui. Maecenas arcu enim, venenatis eu purus id, condimentum posuere lorem. Nunc pharetra, elit at convallis ultricies, nunc risus fermentum nisl, sit amet molestie nisl urna eu arcu. Nunc molestie elit ullamcorper nisl pharetra dignissim. Praesent pretium blandit ornare.
+I Sverige, likt många andra länder, så har vi ett nationellt register för bilar. Dessa består av tre bokstäver följt av tre siffror. (Sen några år tillbaka går det även att få tre bokstäver följt av två siffror och sen en bokstav igen. Det g år också att få ett personligt registreringsnummer.)
 
-### Exempel
+Ditt program ska generera nya godkända registreringsnummer som du sedan skriver ut på fil. Användaren ska ange önskat antal nummer som ska skrivas till filen med registreringsnummer. Dina registreringsnummer ska följa följande regler:
 
-Duis lobortis porta orci, et scelerisque diam ornare nec. Pellentesque eget suscipit ligula, et ultrices tortor. Ut congue, tellus in rutrum interdum, massa est convallis eros, at blandit quam augue vitae libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed nisi libero, pretium vel tincidunt mollis, accumsan at eros. Nunc eu congue ex, quis sodales enim. Aliquam a sem hendrerit, vehicula enim ut, maximus risus. Aenean ac lobortis justo. Aenean molestie vehicula dolor, at ullamcorper nisi eleifend a. Quisque egestas est vulputate, sagittis leo id, fermentum ante. Pellentesque cursus nulla nibh, id luctus diam laoreet in.
+- Bokstäverna väljs utifrån delmängden av det svenska alfabetet: A B C D E F G H J K L M N O P R S T U W X Y Z
+- Siffrorna kommer från en slumptalsgenerator som slumpar allt i registreringsnumret.
+- Vissa kombinationer är olämpliga och är inte tillåtna, dessa finns på en fil som du kan utöka hur du vill.
+
+För högre betyg önskas att programmet ÄVEN genererar registreringsnummer av den nya sorten.
+
+Tips: Lagra samtliga registreringsnummer i ett dictionary för att ta reda på om det existerar krockar.
 
 ### Krav för olika betyg
+
+För C räcker det att programmet genererar gamla registreringsnummer, läser in tagna registreringsnummer samt sparar ner nya på fil.
+
+För A krävs det att nya registreringsnummer också går att generera.
 
 ## Dokumentation & Planering
 
@@ -31,3 +43,7 @@ I första stadiet av projektet bör du även skissa upp ett flödesschema i för
 ## Författare
 
 Niclas Lund
+
+## Disclaimer
+
+Uppgiften (eller inspiration till den) är ärligt stulen från EECS-skolan (gamla CSC) och kursen DD1314.
