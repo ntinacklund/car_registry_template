@@ -1,4 +1,4 @@
-# Projektmall
+# Registreringsskyltsgeneratorn för bilar
 
 Nyckelord: Datastrukturer, filhantering
 
