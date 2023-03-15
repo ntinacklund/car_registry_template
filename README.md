@@ -6,7 +6,7 @@ Nyckelord: Datastrukturer, filhantering
 
 ### Lydelse
 
-I Sverige, likt många andra länder, så har vi ett nationellt register för bilar. Dessa består av tre bokstäver följt av tre siffror. (Sen några år tillbaka går det även att få tre bokstäver följt av två siffror och sen en bokstav igen. Det g år också att få ett personligt registreringsnummer.)
+I Sverige, likt många andra länder, så har vi ett nationellt register för bilar. Dessa består av tre bokstäver följt av tre siffror. (Sen några år tillbaka går det även att få tre bokstäver följt av två siffror och sen en bokstav igen. Det går också att få ett personligt registreringsnummer.)
 
 Ditt program ska generera nya godkända registreringsnummer som du sedan skriver ut på fil. Användaren ska ange önskat antal nummer som ska skrivas till filen med registreringsnummer. Dina registreringsnummer ska följa följande regler:
 
